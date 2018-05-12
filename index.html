@@ -7,17 +7,21 @@
       
   <style>
     .container {
-      position: fixed;
-      top: 0;
-      right:0;
-      bottom:0;
+      position: fixed; 
+      right: 0; 
+      bottom: 0; 
       left: 0;
+      top: 0;
+      -webkit-overflow-scrolling: touch;
       overflow-y: scroll;
-        -webkit-overflow-scrolling: touch;
+    }
+    .container iframe {
+      height: 100%;
+      width: 100%;
     }
   </style>
 </head>
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
 <div class="container">
-<iframe style="position: absolute; height: 100%; width: 100%; top: 0; left: 0; border: none" src="https://sayi.do/neileoren"></iframe>
+<iframe src="https://sayi.do/neileoren"></iframe>
 </div>
